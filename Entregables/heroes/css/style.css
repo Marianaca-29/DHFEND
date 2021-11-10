@@ -1,0 +1,84 @@
+header .bardiscount{
+    position: absolute;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background: #1CD1B0;
+}
+header .header{
+    position: absolute;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+body .section{
+position: absolute;
+width: 960px;
+height: 530px;
+left: 32px;
+top: 292px;
+}
+section .cards{
+    position: absolute;
+    width: 960px;
+    height: 530px;
+    left: 32px;
+    top: 292px; 
+}
+section .contenedor1{
+    display: inline-block;
+    position: absolute;
+width: 300px;
+height: 529px;
+left: 32px;
+top: 292px;
+}
+contenedor1 .caja1b{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+    border-radius: 16px 16px 0px 0px;   
+}
+article.caja3b{
+    position: absolute;
+width: 300px;
+height: 336px;
+left: 32px;
+top: 485px;
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+section .contenedor2{
+    display: inline-block;
+    position: absolute;
+width: 300px;
+height: 529px;
+left: 362px;
+top: 292px;
+}
+ 
+section .contenedor3{
+    display: inline-block;
+    position: absolute;
+width: 300px;
+height: 529px;
+left: 692px;
+top: 293px;
+}
+
+footer{
+position: absolute;
+width: 1024px;
+height: 51px;
+left: 0px;
+top: 972px;
+background: #00669F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
