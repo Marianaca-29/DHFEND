@@ -1,2 +1,84 @@
-.bordenegro{background-color: black;
+section.bordenegro{
+    position: absolute;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+    
+    background: #222222;
+}
+section .ofertas{
+    position: absolute;
+    width: 138px;
+    height: 12px;
+    left: calc(50% - 138px/2 - 353px);
+    top:4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #F3F3F3; 
+}
+div.idiomas{
+    position: absolute;
+    width: 36px;
+    height: 12px;
+    left: calc(50% - 36px/2 + 388px);
+    top:4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+   color: #F3F3F3;
+}
+div.moneda{
+    position: absolute;
+    width: 26px;
+    height: 12px;
+    left: calc(50% - 26px/2 + 439px);
+    top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #F3F3F3;
+}
+header{
+    position: absolute;
+width: 1024px;
+height: 62px;
+left: calc(50% - 1024px/2);
+top: 20px;
+
+background: #F0A83E;
+}
+main{
+    position: absolute;
+    width: 1024px;
+    height: 951px;
+    left: 0px;
+    top: 81px; 
+ }  
+img.plato1{
+position: absolute;
+width: 1024px;
+height: 409px;
+left:calc(50% - 1024px/2);
+top: 81px;
+}
+footer{
+    position: absolute;
+width: 1024px;
+height: 20px;
+left: calc(50% - 1024px/2);
+bottom: 0px;
+
+background: #222222;
 }
