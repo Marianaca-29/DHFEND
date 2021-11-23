@@ -1,16 +1,20 @@
-section.bordenegro{
-    position: absolute;
-    width: 1024px;
-    height: 20px;
-    left: calc(50% - 1024px/2);
-    top: 0px;
-    
-    background: #222222;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
 }
-section .ofertas{
-    position: absolute;
+.bordenegro{
+height: 30px;
+top: 0px;
+background: #222222;
+}
+.menu{
+    display:flex;
+    justify-content: flex-end;
+}
+.ofertas{
     width: 138px;
-    height: 12px;
+    height: 40px;
     left: calc(50% - 138px/2 - 353px);
     top:4px;
     font-family: Roboto;
@@ -21,64 +25,56 @@ section .ofertas{
     /* identical to box height */
     color: #F3F3F3; 
 }
-div.idiomas{
-    position: absolute;
-    width: 36px;
-    height: 12px;
-    left: calc(50% - 36px/2 + 388px);
+.idiomas{
+    width:36px;
+    height:12px;
     top:4px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height */
-   color: #F3F3F3;
+    font-family:Roboto;
+    font-style:normal;
+    font-weight:normal;
+    font-size:10px;
+    line-height:12px;
+    color: #F3F3F3;
+    display:inline-block;
+    flex-direction:row;
+    justify-content:flex-end;
 }
-div.moneda{
-    position: absolute;
+.moneda{
     width: 26px;
     height: 12px;
     left: calc(50% - 26px/2 + 439px);
     top: 4px;
-    
-    font-family: Roboto;
+    font-family:Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 12px;
-    /* identical to box height */
-    color: #F3F3F3;
+    color:#F3F3F3;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
 header{
-    position: absolute;
-width: 1024px;
-height: 62px;
-left: calc(50% - 1024px/2);
-top: 20px;
-
+height: 00px;
+top:0px;
 background: #F0A83E;
 }
 main{
-    position: absolute;
-    width: 1024px;
-    height: 951px;
+    width: 100%;
+    height: 1500px;
     left: 0px;
     top: 81px; 
- }  
-img.plato1{
-position: absolute;
-width: 1024px;
-height: 409px;
-left:calc(50% - 1024px/2);
-top: 81px;
+}  
+section.plato{
+background-size:cover;
+}
+.fotind{
+    position: absolute;
+    left: calc(50% - 1024px/2);
+    bottom: 270px;
 }
 footer{
-    position: absolute;
-width: 1024px;
-height: 20px;
-left: calc(50% - 1024px/2);
-bottom: 0px;
-
+height:30px;
 background: #222222;
+bottom: 10px;
 }

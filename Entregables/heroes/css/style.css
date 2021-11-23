@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
+box-sizing: border-box;
 margin:0%;
 padding:0%;    
 }
-header .bardiscount{
+.bardiscount{
     position: absolute;
     width: 100%;
     height: 38px;
@@ -16,7 +18,6 @@ header .header{
     height: 101px;
     left: 0px;
     top: 38px;
-    
     background: #00669F;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
@@ -67,7 +68,6 @@ height: 529px;
 left: 362px;
 top: 292px;
 }
- 
 section .contenedor3{
     display: inline-block;
     position: absolute;
@@ -76,13 +76,33 @@ height: 529px;
 left: 692px;
 top: 293px;
 }
-
 footer{
 position: absolute;
-width: 100%;
-height: 51px;
-left: 0px;
-top: 972px;
+width:100%;
+height:51px;
+left:0px;
+top:1050px;
 background: #00669F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login{
+position: absolute;
+width: 954px;
+height: 832px;
+left: 243px;
+top: 184px;
+
+background: #00669F;
+box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+border-radius: 49.0901px;
+}
+.login{
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 72px;
+/* identical to box height, or 179% */
+text-align: center;
+color:#fbfffd;
 }
