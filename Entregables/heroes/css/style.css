@@ -106,3 +106,12 @@ line-height: 72px;
 text-align: center;
 color:#fbfffd;
 }
+.añadir{
+position:absolute;
+width:466px;
+height:87px;
+left: 250px;
+top: 700px;
+background: #1CD1B0;
+border-radius:23.011px;
+}
