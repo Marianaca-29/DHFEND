@@ -1,4 +1,74 @@
-body{background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+}
+header{
+    position: absolute;
+    width: 1600px;
+    height: 130px;
+    left: 0px;
+    background:white;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    text-align: center;    
+}
+body{background-color:blueviolet;
+    font-family: 'Nunito Sans', sans-serif;
     position: absolute; 
-    left:50px;
     }
+.btm{
+    position: absolute;
+    width: 954px;
+    height: 50px;
+    left: 300px;
+    top: 200px;
+    background:white;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 49.0901px;
+    text-align:center;
+    }
+.CV{
+    position: absolute;
+    width: 954px;
+    height: 50px;
+    left: 300px;
+    top: 300px;
+    background:white;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 49.0901px;
+    text-align:center;
+    }
+.pie{
+    position: absolute;
+            width: 954px;
+            height: 50px;
+            left: 300px;
+            top: 400px;
+            background:white;
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+            border-radius: 49.0901px;
+            text-align:center;
+            }
+.pet{
+position: absolute;
+width: 954px;
+height: 50px;
+left: 300px;
+top: 500px;
+background:white;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+border-radius: 49.0901px;
+text-align:center;
+}
+.hrs{
+position: absolute;
+width: 954px;
+height: 50px;
+left: 300px;
+top: 600px;
+background:white;
+border-radius: 49.0901px;
+text-align:center;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+    
