@@ -1,0 +1,161 @@
+/*configuración Común*/
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0pt;
+  padding: 0pt;
+}
+header {
+  font-family:Be Vietnam;
+  font-style: normal;
+  font-weight: 500;
+  color: #242e52;
+}
+body {
+  background-image: url("http://www.w3.org/2000/svg");
+}
+.four {
+position: absolute;
+left: 0px;
+background: #f3613c;
+}
+footer {
+  position: absolute;
+  background: #1e1e26;
+  }
+button {
+  padding: 10px;
+  position: static;
+  left: 0px;
+  color: #FFFFFF; 
+  background:#f3603b;
+  box-shadow: 0px 4px 8px rgba(253, 252, 252, 0.979);
+}
+footer div.bottom {
+  position: absolute;
+  font-family: Be Vietnam;
+  font-style: normal;
+  color: #8c8c94;
+}
+button.four{
+  color: #f3603b;
+  background:#FFFFFF; 
+}
+/*configuración para Celulares*/
+
+@media screen and (min-width: 375px){
+header{
+position: static;
+width:100%;
+height:150px;
+left: 10px;
+top: 0px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+  body{
+    top:10px;
+  }
+  
+  /*.two{
+
+}
+.three{
+
+}
+*/
+  .four {
+    width: 1440px;
+    height: 450px;
+    left: 0px;
+    top: 2050px;
+  }
+  footer {
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 2500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  button {
+    width: 50px;
+    height: 15px;
+    left: 0px;
+    top: 325px;
+    border-radius: 10px;
+  }
+  footer div.bottom {
+    display: flex;
+    align-items: center;
+    bottom: 10px;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+  }
+}
+/*configuración para Desktop*/
+
+@media screen and (min-width: 1440px) {
+header{
+position:absolute;
+width:100%;
+height:174px;
+left:0px;
+top:0px;
+padding:20px 100px;
+display:flex;
+flex-direction:row;
+justify-content:space-evenly
+}
+main{
+top: 200px;
+padding: 50px 100px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.one{
+display:inline
+}
+.two{
+display:inline
+}
+footer{
+width:100%;
+height:250px;
+left:0px;
+top:2500px;
+padding: 50px 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: flex-end;    
+}
+.four {
+width:100%;
+height:200px;
+left:0px;
+top:2300px;
+padding: 100px;
+font-weight: bold;
+font-size: 16px;
+line-height: 48px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+letter-spacing: -0.005em;
+color: #FFFFFF;
+}
+button{
+width:134px;
+height:44px;
+left:0px;
+top:325px;
+border-radius:50px;
+}
+}
