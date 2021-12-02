@@ -7,82 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage</title>
     <!--Enlaces Iconos-->
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     <!--Enlaces fonts -->
-    
+
     <!--Enlace CSS-->
     <link rel="stylesheet" href="./css/style.css">
         <!--En el head se establecieron los elementos copmunes que utilizamos siempre y se vincularon las hojas y fuentes-->
 </head>
-
 <body>
     <header>
         <div class="logo"><img src="img/logo.svg" alt="logo manage"></div>
         <div class="menu">
-            <nav>
+        <nav>
                 <ul type=none>
                     <li><a href="#" target="_blank">Home</a></li>
                     <li><a href="#" target="_blank">Pricing</a></li>
                     <li><a href="#" target="_blank">Products</a></li>
                     <li><a href="#" target="_blank">About Us</a></li>
-                </ul>
-            </nav>
-            <!--duda:¿es necesario ponerle un div al button? si agregar <a> -->
-            <form>
-                <label for="empezar"></label>
-                <button type="submit" id="empezar">Get Started</button>
-            </form>
+                </ul> 
+        </nav>
+        <button class="button"><a href="#">Get Started</a></button>
         </div>
+        <div class="hamburger">
+        <img src="./img/icon-hamburger.svg" alt="boton hamburger">
+        </div>    
     </header>
+    <!--Armé 3 div para el header--> 
     <main>
         <section class="one">
+        <div class="pic">
+            <img src="./img/illustration-intro.svg" alt="stats">
+        </div>
         <div>
             <h1>Bring everyone together to build better products.</h1>
             <p>
                 Manage makes it simple for software teams
                 to plan day-to-day tasks while keeping the
-                large team goals in view
+                large team goals in view.
             </p>
             <form>
-                <label for="empezar"></label>
-                <button type="submit" id="empezar">Get Started</button>
+                <label for="start"></label>
+                <button type="submit" id="start">Get Started</button>
             </form>
-        </div>
-        <div>
-        
-            <img src="./img/illustration-intro.svg">
         </div>
         <section class="two">
         <div>
-            <h2>What´s different about
-                Manage? </h2>
+            <h2>What´s different about Manage? </h2>
             <p>
                 Manage provides all the functionality your
                 teas needs, without the complexity. Our software is tailor-made for modern digital product teams
             </p>
         </div>
         <div>
-            <h3>01</h3>
-            <h4>Track company-wide progress
-            </h4>
+            <h3><span class="number">01</span><span class="subs">Track company-wide progress</span></h3>
             <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level
                 all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
-            <h3>02</h3>
-            <h4>Advance built-in reports
-            </h4>
+            <h3><span class="number">02</span><span class="subs">Advance built-in reports</span></h3>
             <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps
                 you build out the reports you need to keep key stakeholders informed.</p>
-            <h3>03</h3>
-            <h4>Everything you need in one place
-            </h4>
+            <h3><span class="number">03</span><span class="subs">Everything you need in one place</span></h3>
             <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents.
                 Manage offers an all-in-one team productivity solution.</p>
         </div>
         </section>
         <section class="three">
-            <h3>
+            <h2>
                 What they´ve said
-            </h3>
+            </h2>
             <article>
             <img src="./img/avatar-anisha.png" alt=>
             <h4>Anisha Li</h4>
@@ -102,29 +93,29 @@
                 recommending them to everyone i talk to!”</p>
             </article>
                 <form>
-                    <label for="empezar"></label>
-                    <button type="submit" id="empezar">Get Started</button>
+                    <label for="start"></label>
+                    <button type="submit" id="start">Get Started</button>
                 </form>
         </section>
     <section class="four">
             <h2>Simplify how your team works today.</h2>
             <form>
-                <label for="empezar"></label>
-                <button type="submit" id="empezar">Get Started</button>
+                <label for="starting"></label>
+                <button type="submit" id="starting">Get Started</button>
             </form>
         </section>
         <!--En el main establecí 4 sections y dentro cada una tiene 2 subdivisiones-->
     </main>
     <footer>
-        <div class="logos">
-            <img src="img/logo.svg" alt="logo manage">
-            <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/icon-facebook.svg" alt="facebook"></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="./img/icon-youtube.svg" alt="youtube"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="./img/icon-twitter.svg" alt="twitter"></a>
-            <a href="https://ar.pinterest.com/" target="_blank"><img src="./img/icon-pinterest.svg" alt="pinterest"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="./img/icon-instagram.svg" alt="instagram"></a>
+        <div class="end">
+            <form>
+                <label for="email"></label>
+                <input type="text" id="email" name="mail" placeholder=" Updates in your inbox...">
+                <!--como le agrego texto: inserte una direccion valida???-->
+                <input type="submit" id="go" value="Go">
+            </form>
         </div>
-        <div class="us">
+        <div class="other">
             <nav>
                 <ul type=none>
                     <li><a href="#" target="_blank">Home</a></li>
@@ -134,23 +125,24 @@
                 </ul>
             </nav>
         </div>
-        <div class="other">
+        <div class="us">
             <nav>
-                <ul type=none>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
+                    <ul type=none>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
             </nav>
         </div>
-        <div class="end">
-        <form>
-            <!--agregar for-->
-            <label for="email"></label>
-            <input type="text" id="email" name="mail" placeholder="johnmadden/mail">
-            <!--como le agrego texto: inserte una direccion valida???-->
-            <input type="submit" value="Go">
-        </form>
+    <div class="icons">
+        <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/icon-facebook.svg" alt="facebook"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="./img/icon-youtube.svg" alt="youtube"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="./img/icon-twitter.svg" alt="twitter"></a>
+        <a href="https://ar.pinterest.com/" target="_blank"><img src="./img/icon-pinterest.svg" alt="pinterest"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./img/icon-instagram.svg" alt="instagram"></a>
+    </div>
+    <div class="logos">
+        <img src="img/logo.svg" alt="logo manage">
     </div>
         <div class="bottom">
             Copyright 2020. All Rights Reserved
