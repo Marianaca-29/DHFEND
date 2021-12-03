@@ -15,7 +15,7 @@ color: #242e52;
 /* organizamos los elementos del HEADER - de mayor a menor */   
 header{
 position:absolute;
-width:100%;
+width:96%;
 height:70px;
 display: flex;
 justify-content: space-between;
@@ -30,21 +30,17 @@ display: none;
 }
 .list-us li a{
   text-decoration: none;
-  font-size: 0.8em;
-  color:blue;
+  font-size: 12px;
+  color: #1e1e26;
   font-weight: 600;
   transition: all 0.5s ease;
 }
-.list-us li a:hover{
-  color: rgb(143, 148, 167);
-}
-
 .fa-bars{
   font-size: 30px;
   color:rgb(35, 44, 81);
 }
 
-header .button{
+a.buttonh{
   display: none;
 }
 
@@ -243,11 +239,6 @@ footer div.bottom{
 @media screen and (min-width: 376px) {
   /* organizamos los elementos del HEADER - de mayor a menor */
   header{
-  position:absolute;
-  width:100%;
-  height:70px;
-  left:0px;
-  top:0px;
   text-decoration: none;
   padding: 10px 10px 10px 10px;
   
@@ -267,20 +258,31 @@ i{
 display: none;  
 }
 .list-us li a{
-  text-decoration: none;
   font-size: 12px;
   color:  #1e1e26;
   font-weight: 600;
-  transition: all 0.5s ease;
+  transition: all 0.s ease;
 }
-div.menu i{
+.hamb {
   display:none;
 }
-/*como hago aparecer el boton?????????????????
-div.menu a{
-display: inline;  
-}*/
-
+a.buttonh {
+display: block;
+width: 134px;
+height: 44px;
+left: 0px;
+top: 325px;
+border-radius: 50px;
+background-color: #f3603b;
+border-color: rgb(255, 239, 234);
+padding: 13px 10px 10px;
+text-align: center;
+font-size: 10px;
+}
+.menu{
+display: flex;
+gap: 440px;  
+}
   /* organizamos los elementos del BODY - MAIN - de mayor a menor */
   main{
   width: 100%;
@@ -313,11 +315,20 @@ display:flex;
 }
 section.three {
 display: block;
+
+}
+div.pplsay{
+display: flex;
+text-align: center;
+align-items: center;
+gap: 10px;
 }
 .people{
 width: 33%;
+padding: 10px 0 0 0;
 display: flex;
 flex-direction: column;
+gap: 20px;
 }
 
 div.two.main{
@@ -346,11 +357,17 @@ margin: 10px 50px 10px 50px;
   text-align: left;
   background-color: rgb(255, 255, 255);
   }
+h4{
+left:0px;
+}
+article img{
+left: 180px;  
+}
 main .four {
 width:100%;
 height:150px;
 left:0px;
-top:1750px;
+top:1400px;
 padding: 0px 20px 20px 20px;
 font-weight: bold;
 font-size: 16px;
@@ -369,59 +386,48 @@ position: relative;
   text-align: center;
 }
 .number{
-  width:50px;
-  height:30px;
-  left:0px;
-  padding-top: 7px;
+width:50px;
+height:30px;
+left:0px;
+padding-top: 7px;
 border-radius:50px;
-    font-size: 12px;
-    text-align: center;
-    color: #FFFFFF; 
-    background:#f3603b;
-    box-shadow: rgba(253, 252, 252, 0.979); 
-    }
-    .subs{
-    width:100px;
-    height:30px;
-    left:0px;
-    top:325px;
-    border-radius:50px;
-    font-size: 15px;
-    text-align: center;
-    color:#242e52;
-    background:rgb(255, 239, 234);
-    box-shadow: rgba(253, 252, 252, 0.979); 
-    }
-  button{
+font-size: 12px;
+text-align: center;
+color: #FFFFFF; 
+background:#f3603b;
+box-shadow: rgba(253, 252, 252, 0.979); 
+}
+.subs{
+width:100px;
+height:30px;
+left:0px;
+top:325px;
+border-radius:50px;
+font-size: 15px;
+text-align: center;
+color:#242e52;
+background:rgb(255, 239, 234);
+box-shadow: rgba(253, 252, 252, 0.979); 
+}
+button{
   width:134px;
   height:44px;
   left:0px;
   top:325px;
   border-radius:50px;
   }
-button:hover { 
+buttonh:hover, button:hover, #starting:hover, #go:hover{ 
     background-color: #eb937d; 
     border: solid 1px #eb937d; 
     transition: background-color 0.7s; 
 } 
-#starting:hover { 
-  background-color: #f3613c;
-  border: solid 1px #f3613c;
-  transition: background-color 0.7s; 
-}
-#go:hover { 
-  background-color: #eb937d; 
-  border: solid 1px #eb937d; 
-  transition: background-color 0.7s; 
-}  
-  
     
 /* organizamos los elementos del FOOTER - de mayor a menor */
 footer {
 width:100%;
 height: 250px;
 left:0px;
-top:1950px;
+top:1600px;
 padding: 50px 20px;
 text-decoration: none;
 background: #1e1e26;
@@ -429,7 +435,8 @@ font-family:'Be Vietnam Pro';
 display: flex;
 flex-direction: row-reverse;
 justify-content: space-evenly;
-align-items: flex-end;    
+align-items: flex-start;
+
 }
 footer li{
 display: flex;
